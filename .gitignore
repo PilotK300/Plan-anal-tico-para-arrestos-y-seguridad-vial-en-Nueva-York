@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
 __pycache__/
 .pytest_cache/
+.venv/
+qa_bonus-*.png
+qa_slide-*.png
+qa_presentacion.pdf
