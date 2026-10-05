@@ -1,0 +1,118 @@
+{
+  "retrieved_utc": "2026-10-03T03:50:16.754175+00:00",
+  "population": {
+    "source_page": "https://healthweb-back.health.ny.gov/statistics/cancer/registry/population.htm",
+    "table_url": "https://public.tableau.com/views/cancerstatisticreportcounty/12_Countypopulation.csv?:showVizHome=no",
+    "sha256_csv": "f34205d88afd7e7086df4bff6c68293e6924de28184581abf1e60c4530ce0940",
+    "rows": 195,
+    "nyc_boroughs": [
+      {
+        "borough": "Brooklyn",
+        "county": "Kings",
+        "population": 2655570
+      },
+      {
+        "borough": "Queens",
+        "county": "Queens",
+        "population": 2342047
+      },
+      {
+        "borough": "Manhattan",
+        "county": "New York",
+        "population": 1638025
+      },
+      {
+        "borough": "Bronx",
+        "county": "Bronx",
+        "population": 1423729
+      },
+      {
+        "borough": "Staten Island",
+        "county": "Richmond",
+        "population": 494308
+      }
+    ],
+    "period": "2019-2023 (promedio anual)"
+  },
+  "climate_open_meteo": {
+    "api_url_without_query": "https://archive-api.open-meteo.com/v1/archive",
+    "sha256_json": "b4617d0e8e0dae93aa7bfa41c8343714e638b36805acb693ae0946de164d2423",
+    "days": 1826,
+    "model": "ERA5",
+    "period": "2021-2025",
+    "requested_location": {
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    "returned_location": {
+      "latitude": 40.75,
+      "longitude": -74.0
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "temperature_mean_c": 1.08,
+        "precipitation_monthly_mm": 85.08
+      },
+      {
+        "month": 2,
+        "temperature_mean_c": 1.86,
+        "precipitation_monthly_mm": 80.9
+      },
+      {
+        "month": 3,
+        "temperature_mean_c": 6.82,
+        "precipitation_monthly_mm": 114.58
+      },
+      {
+        "month": 4,
+        "temperature_mean_c": 11.83,
+        "precipitation_monthly_mm": 99.34
+      },
+      {
+        "month": 5,
+        "temperature_mean_c": 16.93,
+        "precipitation_monthly_mm": 96.6
+      },
+      {
+        "month": 6,
+        "temperature_mean_c": 22.26,
+        "precipitation_monthly_mm": 75.64
+      },
+      {
+        "month": 7,
+        "temperature_mean_c": 25.79,
+        "precipitation_monthly_mm": 118.06
+      },
+      {
+        "month": 8,
+        "temperature_mean_c": 24.01,
+        "precipitation_monthly_mm": 101.16
+      },
+      {
+        "month": 9,
+        "temperature_mean_c": 20.47,
+        "precipitation_monthly_mm": 105.02
+      },
+      {
+        "month": 10,
+        "temperature_mean_c": 14.9,
+        "precipitation_monthly_mm": 96.76
+      },
+      {
+        "month": 11,
+        "temperature_mean_c": 8.57,
+        "precipitation_monthly_mm": 59.32
+      },
+      {
+        "month": 12,
+        "temperature_mean_c": 3.48,
+        "precipitation_monthly_mm": 100.66
+      }
+    ]
+  },
+  "climate_open_weather": {
+    "status": "pendiente_clave",
+    "reason": "OpenWeatherMap exige una clave de API."
+  }
+}

@@ -1,0 +1,112 @@
+﻿conjunto,atributo,tipo_socrata,significado,origen_descripcion
+arrestos,arrest_key,text,Randomly generated persistent ID for each arrest,Metadatos de NYC Open Data
+arrestos,arrest_date,calendar_date,Exact date of arrest for the reported event,Metadatos de NYC Open Data
+arrestos,pd_cd,number,Three digit internal classification code (more granular than Key Code),Metadatos de NYC Open Data
+arrestos,pd_desc,text,Description of internal classification corresponding with PD code (more granular than Offense Description),Metadatos de NYC Open Data
+arrestos,ky_cd,number,Three digit internal classification code (more general category than PD code),Metadatos de NYC Open Data
+arrestos,ofns_desc,text,Description of internal classification corresponding with KY code (more general category than PD description),Metadatos de NYC Open Data
+arrestos,law_code,text,"Law code charges corresponding to the NYS Penal Law, VTL and other various local laws",Metadatos de NYC Open Data
+arrestos,law_cat_cd,text,"Level of offense: felony, misdemeanor, violation",Metadatos de NYC Open Data
+arrestos,arrest_boro,text,"Borough of arrest. B(Bronx), S(Staten Island), K(Brooklyn), M(Manhattan), Q(Queens)",Metadatos de NYC Open Data
+arrestos,arrest_precinct,number,Precinct where the arrest occurred,Metadatos de NYC Open Data
+arrestos,jurisdiction_code,number,"Jurisdiction responsible for arrest. Jurisdiction codes 0(Patrol), 1(Transit) and 2(Housing) represent NYPD whilst codes 3 and more represent non NYPD jurisdictions",Metadatos de NYC Open Data
+arrestos,age_group,text,Perpetrator’s age within a category,Metadatos de NYC Open Data
+arrestos,perp_sex,text,Perpetrator’s sex description,Metadatos de NYC Open Data
+arrestos,perp_race,text,Perpetrator’s race description,Metadatos de NYC Open Data
+arrestos,x_coord_cd,number,"Midblock X-coordinate for New York State Plane Coordinate System, Long Island Zone, NAD 83, units feet (FIPS 3104)",Metadatos de NYC Open Data
+arrestos,y_coord_cd,number,"Midblock Y-coordinate for New York State Plane Coordinate System, Long Island Zone, NAD 83, units feet (FIPS 3104)",Metadatos de NYC Open Data
+arrestos,latitude,number,"Latitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326)",Metadatos de NYC Open Data
+arrestos,longitude,number,"Longitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326)",Metadatos de NYC Open Data
+arrestos,geocoded_column,point,Sin descripción individual en los metadatos; consultar documentación de la fuente.,Metadatos de NYC Open Data
+pobreza,serialno,number,Serial Number of each Census household in survey,Diccionario adjunto de NYC Opportunity
+pobreza,sporder,number,Number of each person in Census household,Diccionario adjunto de NYC Opportunity
+pobreza,pwgtp,number,Person weight,Diccionario adjunto de NYC Opportunity
+pobreza,wgtp,number,Housing Weight,Diccionario adjunto de NYC Opportunity
+pobreza,agep,number,Age of person,Diccionario adjunto de NYC Opportunity
+pobreza,cit,number,Citizenship status,Diccionario adjunto de NYC Opportunity
+pobreza,rel,number,Relationship to reference person,Diccionario adjunto de NYC Opportunity
+pobreza,sch,number,School Enrollment,Diccionario adjunto de NYC Opportunity
+pobreza,schg,number,Grade Level Attending,Diccionario adjunto de NYC Opportunity
+pobreza,schl,number,Educational attainment,Diccionario adjunto de NYC Opportunity
+pobreza,sex,number,Sex,Diccionario adjunto de NYC Opportunity
+pobreza,esr,number,Employment status recode,Diccionario adjunto de NYC Opportunity
+pobreza,lanx,number,Language other than English spoken at home,Diccionario adjunto de NYC Opportunity
+pobreza,eng,number,Ability to speak English,Diccionario adjunto de NYC Opportunity
+pobreza,msp,number,"Married, spouse present/spouse absent",Diccionario adjunto de NYC Opportunity
+pobreza,mar,number,Marital status,Diccionario adjunto de NYC Opportunity
+pobreza,wkw,number,Weeks,Diccionario adjunto de NYC Opportunity
+pobreza,wkhp,number,Usual hours worked per week past 12 months,Diccionario adjunto de NYC Opportunity
+pobreza,dis,number,Disability recode,Diccionario adjunto de NYC Opportunity
+pobreza,jwtr,number,Means of transportation to work,Diccionario adjunto de NYC Opportunity
+pobreza,np,number,Number of people in housing unit,Diccionario adjunto de NYC Opportunity
+pobreza,ten,number,Housing Tenure,Diccionario adjunto de NYC Opportunity
+pobreza,hht,number,Household/family type,Diccionario adjunto de NYC Opportunity
+pobreza,agecateg,number,Age Category,Diccionario adjunto de NYC Opportunity
+pobreza,boro,number,NYC Borough,Diccionario adjunto de NYC Opportunity
+pobreza,citizenstatus,number,Citizenship Status,Diccionario adjunto de NYC Opportunity
+pobreza,educattain,number,Educational Attainment,Diccionario adjunto de NYC Opportunity
+pobreza,est_childcare,number,NYCgov estimated Childcare Costs,Diccionario adjunto de NYC Opportunity
+pobreza,est_commuting,number,NYCgov estimated Commuting Costs,Diccionario adjunto de NYC Opportunity
+pobreza,est_eitc,number,"Crédito tributario estimado por ingreso del trabajo (EITC); interpretación del nombre del campo, no documentado en el adjunto.","Interpretación provisional, pendiente de validación"
+pobreza,est_ficatax,number,NYCgov estimated FICA (payroll) tax,Diccionario adjunto de NYC Opportunity
+pobreza,est_heap,number,NYCgov estimated Heating Assistance,Diccionario adjunto de NYC Opportunity
+pobreza,est_housing,number,NYCgov estimated adjustment to income for housing subsidy,Diccionario adjunto de NYC Opportunity
+pobreza,est_incometax,number,"NYCgov estimated Net Income Taxes (tax paid,net of tax credits)",Diccionario adjunto de NYC Opportunity
+pobreza,est_moop,number,NYCgov estimated Total Medical Spending,Diccionario adjunto de NYC Opportunity
+pobreza,est_nutrition,number,"NYCgov estimated combined Nutrition-related income adjustments (SNAP, WIC, School Meals)",Diccionario adjunto de NYC Opportunity
+pobreza,est_povgap,number,the dollar difference between NYCgov family income and the NYCgov threshold,Diccionario adjunto de NYC Opportunity
+pobreza,est_povgapindex,number,the poverty gap expressed as a proportion of the poverty threshold,Diccionario adjunto de NYC Opportunity
+pobreza,ethnicity,number,Race/Ethnicity,Diccionario adjunto de NYC Opportunity
+pobreza,famtype_pu,number,Family Structure of Poverty Unit,Diccionario adjunto de NYC Opportunity
+pobreza,ftptwork,number,"Work Experience of Individual, Full or Part Time",Diccionario adjunto de NYC Opportunity
+pobreza,intp_adj,number,"Interest, dividends, and net rental income past 12 months (signed), adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,mrgp_adj,number,"Mortgage payment (monthly amount),adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,nycgov_income,number,NYCGov estimated Total Income to be compared to NYCgov Threshold for determining poverty status,Diccionario adjunto de NYC Opportunity
+pobreza,nycgov_pov_stat,number,NYCgov Poverty Status,Diccionario adjunto de NYC Opportunity
+pobreza,nycgov_rel,number,Relations within Household,Diccionario adjunto de NYC Opportunity
+pobreza,nycgov_threshold,number,NYCgov Poverty Threshold,Diccionario adjunto de NYC Opportunity
+pobreza,off_pov_stat,number,Official/Federal Poverty Status,Diccionario adjunto de NYC Opportunity
+pobreza,off_threshold,number,Official/Federal Poverty Threshold,Diccionario adjunto de NYC Opportunity
+pobreza,oi_adj,number,"All other income past 12 months, adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,pa_adj,number,"Public assistance income past 12 months, adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,povunit_id,number,Identifier for Poverty Units within Household,Diccionario adjunto de NYC Opportunity
+pobreza,povunit_rel,number,Relationship within Poverty Unit,Diccionario adjunto de NYC Opportunity
+pobreza,pretaxincome_pu,number,Pre-Tax Cash Income,Diccionario adjunto de NYC Opportunity
+pobreza,retp_adj,number,"Retirement income past 12 months, adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,rntp_adj,number,"Monthly rent,adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,semp_adj,number,"Self-employment income past 12 months (signed), adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,ssip_adj,number,"Supplementary Security Income past 12 months, adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,ssp_adj,number,"Social Security income past 12 months, adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+pobreza,totalworkhrs_pu,number,Total Annual Hours worked by Poverty Unit members,Diccionario adjunto de NYC Opportunity
+pobreza,wagp_adj,number,"Wages or salary income past 12 months, adjusted by income adjustment factor",Diccionario adjunto de NYC Opportunity
+vehiculos,unique_id,number,Unique record code generated by system. Primary Key.,Metadatos de NYC Open Data
+vehiculos,collision_id,number,"Crash identification code. Foreign Key, matches unique_id from the Crash table.",Metadatos de NYC Open Data
+vehiculos,crash_date,calendar_date,Occurrence date of collision,Metadatos de NYC Open Data
+vehiculos,crash_time,text,Occurrence time of collision,Metadatos de NYC Open Data
+vehiculos,vehicle_id,text,Vehicle identification code assigned by system,Metadatos de NYC Open Data
+vehiculos,state_registration,text,State where vehicle is registered.,Metadatos de NYC Open Data
+vehiculos,vehicle_type,text,"Type of vehicle based on the selected vehicle category (ATV, bicycle, car/suv, ebike, escooter, truck/bus, motorcycle, other)",Metadatos de NYC Open Data
+vehiculos,vehicle_make,text,Vehicle make,Metadatos de NYC Open Data
+vehiculos,vehicle_model,text,Vehicle model,Metadatos de NYC Open Data
+vehiculos,vehicle_year,text,Year the vehicle was manufactured,Metadatos de NYC Open Data
+vehiculos,travel_direction,text,Direction vehicle was traveling,Metadatos de NYC Open Data
+vehiculos,vehicle_occupants,number,Number of vehicle occupants,Metadatos de NYC Open Data
+vehiculos,driver_sex,text,Gender of driver,Metadatos de NYC Open Data
+vehiculos,driver_license_status,text,"License, permit, unlicensed",Metadatos de NYC Open Data
+vehiculos,driver_license_jurisdiction,text,State where driver license was issued.,Metadatos de NYC Open Data
+vehiculos,pre_crash,text,"Pre-crash action: Going straight, making right turn, passing, backing, etc.",Metadatos de NYC Open Data
+vehiculos,point_of_impact,text,"Location on the vehicle of the initial point of impact (i.e. driver side, passenger side rear, etc.)",Metadatos de NYC Open Data
+vehiculos,vehicle_damage,text,Location on the vehicle where most of the damage occurred,Metadatos de NYC Open Data
+vehiculos,vehicle_damage_1,text,Additional damage locations on the vehicle,Metadatos de NYC Open Data
+vehiculos,vehicle_damage_2,text,Additional damage locations on the vehicle,Metadatos de NYC Open Data
+vehiculos,vehicle_damage_3,text,Additional damage locations on the vehicle,Metadatos de NYC Open Data
+vehiculos,public_property_damage,text,Public property damaged (Yes or No),Metadatos de NYC Open Data
+vehiculos,public_property_damage_type,text,"Type of public property damaged (ex. Sign, fence, light post, etc.)",Metadatos de NYC Open Data
+vehiculos,contributing_factor_1,text,Factors contributing to the collision for designated vehicle,Metadatos de NYC Open Data
+vehiculos,contributing_factor_2,text,Factors contributing to the collision for designated vehicle,Metadatos de NYC Open Data
+educacion,dbn,text,Identificador de la escuela (District Borough Number).,Descripción de la columna por el equipo; contrastar con documentación SAT 2012
+educacion,school_name,text,Nombre de la escuela.,Descripción de la columna por el equipo; contrastar con documentación SAT 2012
+educacion,num_of_sat_test_takers,text,Número de estudiantes que presentaron SAT.,Descripción de la columna por el equipo; contrastar con documentación SAT 2012
+educacion,sat_critical_reading_avg_score,text,Puntaje promedio SAT de lectura crítica (escala de 2012).,Descripción de la columna por el equipo; contrastar con documentación SAT 2012
+educacion,sat_math_avg_score,text,Puntaje promedio SAT de matemáticas (escala de 2012).,Descripción de la columna por el equipo; contrastar con documentación SAT 2012
+educacion,sat_writing_avg_score,text,Puntaje promedio SAT de escritura (escala de 2012).,Descripción de la columna por el equipo; contrastar con documentación SAT 2012
