@@ -1,4 +1,5 @@
 # Plan analítico para arrestos y seguridad vial en Nueva York
+![](https://images.seeklogo.com/logo-png/11/1/pontificia-universidad-javeriana-logo-png_seeklogo-110703.png)
 
 Primera entrega del proyecto de Big Data. Fecha límite: **2 de octubre de 2026, 23:59 (Bogotá)**.
 
@@ -33,6 +34,7 @@ El informe plantea ocho preguntas de negocio para la entrega final **sin respond
 
 ## Estado del bono
 
-El enlace de población `neighborhoodpop.htm` del PDF ya no está disponible. El extractor localiza el tablero incrustado en la [página vigente del Departamento de Salud](https://www.health.ny.gov/statistics/cancer/registry/population.htm) y obtuvo 195 filas. La [tabla de los cinco boroughs](datos/bono_poblacion_nyc.csv) y [su gráfico](figuras/bono_poblacion_nyc.png) corresponden a población media anual **2019–2023**. El [manifiesto del bono](datos/bono_manifest.json) conserva la ruta de exportación y el hash del CSV original.
+El enlace de población `neighborhoodpop.htm` del PDF ya no está disponible. El extractor localizó el tablero incrustado en la [página vigente del Departamento de Salud](https://www.health.ny.gov/statistics/cancer/registry/population.htm) y obtuvo 195 filas. La [tabla de los cinco boroughs](datos/bono_poblacion_nyc.csv) y [su gráfico](figuras/bono_poblacion_nyc.png) corresponden a la población media anual **2019–2023**. El [manifiesto del bono](datos/bono_manifest.json) conserva la ruta de exportación y el hash del CSV original.
+El primer bono que se mencionaba en los requerimientos del proyecto, el link no remitía a una página que funcionara, por ende hicimos el de arriba
 
 La [gráfica climática](figuras/bono_clima_mensual.png) procede de una extracción **real** de 1 826 días de la [API histórica de Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), modelo ERA5, 2021–2025. El enlace del PDF a [OpenWeatherMap](https://openweathermap.org) requiere una clave para usar su API. El extractor incluye la consulta a Current Weather Data, pero **no se ejecutó** porque no hay clave configurada. Si se dispone de una, configure `OPENWEATHER_API_KEY` como variable de entorno y vuelva a ejecutar el script; la respuesta se guardará en `datos/bono_openweather_actual.csv`. Esa observación actual no reemplaza la serie climática histórica ni se atribuye a ella.
